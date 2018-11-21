@@ -23,7 +23,6 @@ int main(/*int argc, char *argv[]*/)
     cin >> string1;
     qDebug() << " ";
     length = strlen(string1);
-    discardSymbols();
     checkPalindrome(); //Vqzqvaem funckiju proverki na palindrom
 
     //Zapisj proverki faila na palindrom v otdeljnqi fail
